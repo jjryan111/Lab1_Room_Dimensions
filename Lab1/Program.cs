@@ -31,7 +31,7 @@ namespace Lab1
                 length = double.Parse(Console.ReadLine());
                 Console.Write("Enter Width: ");
                 width = double.Parse(Console.ReadLine());
-                Console.Write("Enter Width: ");
+                Console.Write("Enter Height: ");
                 height = double.Parse(Console.ReadLine());
                 double area = length * width;
                 double perimeter = 2 * (length + width);
