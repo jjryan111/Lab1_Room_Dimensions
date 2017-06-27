@@ -9,6 +9,7 @@ namespace Lab1
             string input = "";
             bool invalid = true;
             while (invalid) {
+                Console.WriteLine("");
                 Console.WriteLine("Continue? (y/n): ");
                 input = Console.ReadLine();
                 if ((input == "y") || (input == "n"))
@@ -26,7 +27,9 @@ namespace Lab1
             double height = 0;
             string yesNo = "y";
             bool cont = true;
+            Console.WriteLine("Welcome to Grand Circus' Room Detail Generator!");
             while (cont){
+                Console.WriteLine("");
                 Console.Write("Enter Length: ");
                 length = double.Parse(Console.ReadLine());
                 Console.Write("Enter Width: ");
